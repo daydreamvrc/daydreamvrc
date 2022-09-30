@@ -1,5 +1,4 @@
 *{
-    src: url(Minecraft-Regular.otf);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,9 +7,15 @@
 }
 
 @font-face {
-  font-family: Minecraft;
+  font-family: 'Minecraft';
   src: url("Minecraft-Regular.otf") format("opentype");
   
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .back-video{
@@ -31,7 +36,7 @@
 }
 
 .center-h{ 
-        display: inline-flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     word-break: break-word;
@@ -39,8 +44,7 @@
 
 .text{
     text-align: center;
-    color:white;
-    font-style: normal;
+    color:#fff;
 }
 
 .h1{
