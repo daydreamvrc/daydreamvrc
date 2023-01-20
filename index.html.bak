@@ -18,7 +18,7 @@
   <title>What are you waiting for?</title>
 </head>
 <body class="body" style="background-color:#000000;" onmouseover="
-	document.getElementById('audio').volume=0.018;
+	document.getElementById('audio').volume=0.026;
 	document.getElementById('audio').play();">
 
 <div class="center">
