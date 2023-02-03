@@ -1,0 +1,56 @@
+<body class="body" style="background-color:#000000;" onmouseover="
+	document.getElementById('audio').volume=0.026;
+	document.getElementById('audio').play();">
+</body>
+
+<audio 
+        controls
+        src="bgm.mp3"
+        id='audio'
+		hidden
+		preload
+		loop>
+    </audio>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video><video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video><video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video><video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
+<video autoplay loop muted class="back-video">
+    <source src="b.mp4" type="video/mp4">
+</video>
