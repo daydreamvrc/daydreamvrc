@@ -1,48 +1,77 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <!-- Site made with Mobirise Website Builder v5.6.8, https://mobirise.com -->
-  
-  <link rel="shortcut icon" href="ddlogo.png" type="image/x-icon">
- 
-  
-  <meta property="og:title" content="daydream.moe">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://www.daydream.moe">
-	<meta property="og:image" content="https://www.daydream.moe/assets/images/ddlogo.png">
-	<meta property="og:description" content="VRChat's largest asset sharing server. &#10; Thousands of avatars... hundreds of assets. &#10; What are you waiting for?">
-	<meta name="theme-color" content="#f46415">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-  
-  <title>What are you waiting for?</title>
-</head>
-<body class="body" style="background-color:#000000;" onmouseover="
-	document.getElementById('audio').volume=0.026;
-	document.getElementById('audio').play();">
+   <head>
+      <title>daydream.moe</title>
+	  <link rel="icon" href="DOGGOSmall.png">
+	  <link rel="stylesheet" href="index.css">
+	  <meta name="og:title" content="daydream.moe">
+      <meta name="theme-color" content="#75db6e">
+      <meta name="og:image" content="DOGGOSmall.png">
+	  <meta property="og:type" content="website">
+      <meta name="og:description" content="What are you waiting for?">
+      <style>
+         body{margin:0;background-color:#000000;}
+		 @font-face{font-family:'Minecraft-Regular';src:url('Minecraft-Regular.otf') format('opentype');font-weight:normal;font-style:normal;}
+         .section{background-size:cover;color:#fff;display:block;align-items:center;justify-content:center;background-color:rgba(0,0,0,0.5);height:100vh;}
+		 .section1{background-image:url('Back.webp');}
+         .container{max-width:99vw;height:100vh;text-align:center;position: relative;top: 25%;transform: translateY(%);}
+		 .container2{max-width:99vw;height:25vh;text-align:center;position: relative;top: 20%;transform: translateY(%);box-sizing:border-box;}
+         .profile- picture{box-shadow:10px 10px 5px #333;}
+		 a{font-family:'Minecraft-Regular';text-align:center;}
+         h1{font-family:'Minecraft-Regular';text-align:center;}
+         p{font-family:'Minecraft-Regular';font-size:18px;line-height:1.1;}
+		 h1{margin-bottom:10px;font-size:40px;}
+         h2{font-family:'Minecraft-Regular';font-size:24px;margin-bottom:10px;}
+         ul{list-style:none;padding:1;}
+         li{font-family:'Minecraft-Regular';font-size:18px;}
+         a{margin-bottom:10px;color:#fff;font-size:18px;}
+         a:hover{color:#fff;}
+		 #second-page {
+			background-image: url('FennixBack.jpg');
+			align-items: center;
+			justify-content: center;
+		 }	
 
-<div class="center">
-    <h1 class="text h1">Welcome to Daydream</h1>
-    <h3 class="text">VRChat's largest asset sharing server.</h2>
-    <br><br><br>
-    <a href="https://forms.gle/7PGRFJ43GZVXbmzv5" class="btn rounded">Apply today</a>
-    <br>
-    <h5 class="text">2/13 | We're here... We're there....<br>We're everywhere!!! <3</h2>
-</div>
-    
-<video autoplay loop muted plays-inline class="back-video">
-    <source src="vrc.mp4" type="video/mp4">
-</video>
+      </style>
+   </head>
+   <body>
+      <div class="section section1">
+         <div class="container">
+			<img src='Logo.png' height='125'>
+            <h1>Welcome to Daydream</h1>
+            <p>VRChat's largest asset sharing community</p>
+			<a href="https://forms.gle/7PGRFJ43GZVXbmzv5" style="background-color:#bfa200;padding:15px;border-radius:14px;text-decoration:none;">Applications closed - Referral Only</a><br>
+            <h2>Why Daydream?</h2>
+            <ul>
+				<li>Over $40,000 in purchased assets</li>
+               <li>Fast, private file server</li>
+			<li>Frequent updates</li>
+			<li>Over a year of service!</li>
+			<br>
+			<br>
+			<li>(We are NOT a 'ripper' site, dinguses! We get our assets straight from the source.)</li>
+			
+         </ul>
+      </div>
+		<div class="section" id="second-page">
+			<div class="container2">
+			<img src='Logo.png' height='115'>
+            <h1>About us</h1>
+            <p>We are looking for dedicated social VR players to join us in
+			<br>our mission to change the game. We believe that the current
+			<br>state of the market is unacceptable, with overpriced models, subpar
+			<br>creators, and rampant greed. We support creators who put in the effort
+			<br>to create exceptional avatars. If we love their work, we show our appreciation
+			<br>by making a purchase.</p>
+			<br>
+			<p>We are not evil. We do not “leak” assets—we simply share them with each other.
+			<br>“Leaking” entails malicious intent, of which we do not have.
+			<br> We are not a “freeavatar” group, we are not a “steal from the creators” group,
+			<br>we are a group that wants to see change.</p>
+			<br>
+			<p>What are you waiting for?</p>
+			</ul>
+		</div>
 
-    <audio 
-        controls
-        src="bgm.mp3"
-        id='audio'
-		hidden
-		preload
-		loop>
-    </audio>
-	
-	
-</body>
+   </body>
+   <img src="https://gamer.tattoo/99JVKX" alt="">
 </html>
